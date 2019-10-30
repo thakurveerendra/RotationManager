@@ -1,0 +1,797 @@
+[
+  {
+    "source": "^Verify \u0027Mandatory\u0027 field Notification message \"([^\"]*)\" appears$",
+    "steps": [
+      {
+        "name": "Verify \u0027Mandatory\u0027 field Notification message \"Please select a file or press Cancel button\" appears",
+        "aggregatedDurations": {
+          "average": 2.188934866,
+          "median": 2.1803633
+        },
+        "durations": [
+          {
+            "duration": 2.1803633,
+            "location": "src/test/java/featureTest/MySchoolFilesTest.feature:76"
+          },
+          {
+            "duration": 2.2067356,
+            "location": "src/test/java/featureTest/MySchoolFilesTest.feature:91"
+          },
+          {
+            "duration": 2.1797057,
+            "location": "src/test/java/featureTest/MySchoolFilesTest.feature:94"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Select \"([^\"]*)\" file from \u0027Account Files\u0027 list$",
+    "steps": [
+      {
+        "name": "Select \"HealthRequirementsForm.pdf\" file from \u0027Account Files\u0027 list",
+        "aggregatedDurations": {
+          "average": 0.1979644,
+          "median": 0.1979644
+        },
+        "durations": [
+          {
+            "duration": 0.1979644,
+            "location": "src/test/java/featureTest/MySchoolFilesTest.feature:95"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Select \"([^\"]*)\" from \"([^\"]*)\" dropdown$",
+    "steps": [
+      {
+        "name": "Select \"CA\" from \"c_state\" dropdown",
+        "aggregatedDurations": {
+          "average": 0.1342437,
+          "median": 0.1342437
+        },
+        "durations": [
+          {
+            "duration": 0.1342437,
+            "location": "src/test/java/featureTest/1SignUp.feature:18"
+          }
+        ]
+      },
+      {
+        "name": "Select \"Holy City\" from \"c_city\" dropdown",
+        "aggregatedDurations": {
+          "average": 1.5990632,
+          "median": 1.5990632
+        },
+        "durations": [
+          {
+            "duration": 1.5990632,
+            "location": "src/test/java/featureTest/1SignUp.feature:19"
+          }
+        ]
+      },
+      {
+        "name": "Select \"2020\" from \"exp-year\" dropdown",
+        "aggregatedDurations": {
+          "average": 0.1165448,
+          "median": 0.1165448
+        },
+        "durations": [
+          {
+            "duration": 0.1165448,
+            "location": "src/test/java/featureTest/1SignUp.feature:32"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Enter \"([^\"]*)\" date in \"([^\"]*)\" calender$",
+    "steps": [
+      {
+        "name": "Enter \"10/2021\" date in \"graduation_date\" calender",
+        "aggregatedDurations": {
+          "average": 0.0138766,
+          "median": 0.0138766
+        },
+        "durations": [
+          {
+            "duration": 0.0138766,
+            "location": "src/test/java/featureTest/1SignUp.feature:10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Enter \"([^\"]*)\" in \"([^\"]*)\" field$",
+    "steps": [
+      {
+        "name": "Enter \"TestStudent\" in \"first_name\" field",
+        "aggregatedDurations": {
+          "average": 0.5141841,
+          "median": 0.5141841
+        },
+        "durations": [
+          {
+            "duration": 0.5141841,
+            "location": "src/test/java/featureTest/1SignUp.feature:7"
+          }
+        ]
+      },
+      {
+        "name": "Enter \"Qa\" in \"last_name\" field",
+        "aggregatedDurations": {
+          "average": 0.2950181,
+          "median": 0.2950181
+        },
+        "durations": [
+          {
+            "duration": 0.2950181,
+            "location": "src/test/java/featureTest/1SignUp.feature:8"
+          }
+        ]
+      },
+      {
+        "name": "Enter \"75 Rock Maple\" in \"c_address_1\" field",
+        "aggregatedDurations": {
+          "average": 0.3589841,
+          "median": 0.3589841
+        },
+        "durations": [
+          {
+            "duration": 0.3589841,
+            "location": "src/test/java/featureTest/1SignUp.feature:16"
+          }
+        ]
+      },
+      {
+        "name": "Enter \"St.Santa Ana\" in \"c_address_2\" field",
+        "aggregatedDurations": {
+          "average": 0.3655842,
+          "median": 0.3655842
+        },
+        "durations": [
+          {
+            "duration": 0.3655842,
+            "location": "src/test/java/featureTest/1SignUp.feature:17"
+          }
+        ]
+      },
+      {
+        "name": "Enter \"92707\" in \"c_zip\" field",
+        "aggregatedDurations": {
+          "average": 0.1548803,
+          "median": 0.1548803
+        },
+        "durations": [
+          {
+            "duration": 0.1548803,
+            "location": "src/test/java/featureTest/1SignUp.feature:20"
+          }
+        ]
+      },
+      {
+        "name": "Enter \"(812)345-6789\" in \"uphone\" field",
+        "aggregatedDurations": {
+          "average": 0.1801888,
+          "median": 0.1801888
+        },
+        "durations": [
+          {
+            "duration": 0.1801888,
+            "location": "src/test/java/featureTest/1SignUp.feature:21"
+          }
+        ]
+      },
+      {
+        "name": "Enter \"Testing123\" in \"password\" field",
+        "aggregatedDurations": {
+          "average": 0.2380085,
+          "median": 0.2380085
+        },
+        "durations": [
+          {
+            "duration": 0.2380085,
+            "location": "src/test/java/featureTest/1SignUp.feature:24"
+          }
+        ]
+      },
+      {
+        "name": "Enter \"Testing123\" in \"password_confirm\" field",
+        "aggregatedDurations": {
+          "average": 0.2174712,
+          "median": 0.2174712
+        },
+        "durations": [
+          {
+            "duration": 0.2174712,
+            "location": "src/test/java/featureTest/1SignUp.feature:25"
+          }
+        ]
+      },
+      {
+        "name": "Enter \"4111111111111111\" in \"card-number\" field",
+        "aggregatedDurations": {
+          "average": 0.4315378,
+          "median": 0.4315378
+        },
+        "durations": [
+          {
+            "duration": 0.4315378,
+            "location": "src/test/java/featureTest/1SignUp.feature:31"
+          }
+        ]
+      },
+      {
+        "name": "Enter \"123\" in \"ccv\" field",
+        "aggregatedDurations": {
+          "average": 0.2191226,
+          "median": 0.2191226
+        },
+        "durations": [
+          {
+            "duration": 0.2191226,
+            "location": "src/test/java/featureTest/1SignUp.feature:33"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Enter \"([^\"]*)\" address for \u0027Registration\u0027$",
+    "steps": [
+      {
+        "name": "Enter \"email\" address for \u0027Registration\u0027",
+        "aggregatedDurations": {
+          "average": 0.498942,
+          "median": 0.498942
+        },
+        "durations": [
+          {
+            "duration": 0.498942,
+            "location": "src/test/java/featureTest/1SignUp.feature:22"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Select Add files from My \"([^\"]*)\" options from Dropdown list$",
+    "steps": [
+      {
+        "name": "Select Add files from My \"computer\" options from Dropdown list",
+        "aggregatedDurations": {
+          "average": 0.070127,
+          "median": 0.070127
+        },
+        "durations": [
+          {
+            "duration": 0.070127,
+            "location": "src/test/java/featureTest/MySchoolFilesTest.feature:77"
+          }
+        ]
+      },
+      {
+        "name": "Select Add files from My \"account\" options from Dropdown list",
+        "aggregatedDurations": {
+          "average": 0.1849623,
+          "median": 0.1849623
+        },
+        "durations": [
+          {
+            "duration": 0.1849623,
+            "location": "src/test/java/featureTest/MySchoolFilesTest.feature:92"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Verify \"([^\"]*)\" model window open$",
+    "steps": [
+      {
+        "name": "Verify \"Success\" model window open",
+        "aggregatedDurations": {
+          "average": 0.182334,
+          "median": 0.182334
+        },
+        "durations": [
+          {
+            "duration": 0.182334,
+            "location": "src/test/java/featureTest/1SignUp.feature:37"
+          }
+        ]
+      },
+      {
+        "name": "Verify \"Upload Documents\" model window open",
+        "aggregatedDurations": {
+          "average": 2.77364365,
+          "median": 2.77364365
+        },
+        "durations": [
+          {
+            "duration": 2.8055306,
+            "location": "src/test/java/featureTest/MySchoolFilesTest.feature:74"
+          },
+          {
+            "duration": 2.7417567,
+            "location": "src/test/java/featureTest/MySchoolFilesTest.feature:89"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Click on \u0027Login\u0027 button$",
+    "steps": [
+      {
+        "name": "Click on \u0027Login\u0027 button",
+        "aggregatedDurations": {
+          "average": 0.0695788,
+          "median": 0.0695788
+        },
+        "durations": [
+          {
+            "duration": 0.0695788,
+            "location": "src/test/java/featureTest/MySchoolFilesTest.feature:10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Click on \"([^\"]*)\" Menu$",
+    "steps": [
+      {
+        "name": "Click on \"My School Files\" Menu",
+        "aggregatedDurations": {
+          "average": 2.0274984,
+          "median": 2.0274984
+        },
+        "durations": [
+          {
+            "duration": 2.0274984,
+            "location": "src/test/java/featureTest/MySchoolFilesTest.feature:18"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Verify the page Title \"([^\"]*)\" text$",
+    "steps": [
+      {
+        "name": "Verify the page Title \"Rotation Manager Software\" text",
+        "aggregatedDurations": {
+          "average": 0.0109943,
+          "median": 0.0109943
+        },
+        "durations": [
+          {
+            "duration": 0.0109943,
+            "location": "src/test/java/featureTest/MySchoolFilesTest.feature:12"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Verify \"([^\"]*)\" Document Available in list$",
+    "steps": [
+      {
+        "name": "Verify \"BLS/CPR Card\" Document Available in list",
+        "aggregatedDurations": {
+          "average": 0.0236674,
+          "median": 0.0236674
+        },
+        "durations": [
+          {
+            "duration": 0.0236674,
+            "location": "src/test/java/featureTest/MySchoolFilesTest.feature:23"
+          }
+        ]
+      },
+      {
+        "name": "Verify \"School ID\" Document Available in list",
+        "aggregatedDurations": {
+          "average": 0.0217495,
+          "median": 0.0217495
+        },
+        "durations": [
+          {
+            "duration": 0.0217495,
+            "location": "src/test/java/featureTest/MySchoolFilesTest.feature:42"
+          }
+        ]
+      },
+      {
+        "name": "Verify \"Picture ID\" Document Available in list",
+        "aggregatedDurations": {
+          "average": 0.0167255,
+          "median": 0.0167255
+        },
+        "durations": [
+          {
+            "duration": 0.0167255,
+            "location": "src/test/java/featureTest/MySchoolFilesTest.feature:56"
+          }
+        ]
+      },
+      {
+        "name": "Verify \"Health Requirements Form\" Document Available in list",
+        "aggregatedDurations": {
+          "average": 0.0555518,
+          "median": 0.0555518
+        },
+        "durations": [
+          {
+            "duration": 0.0555518,
+            "location": "src/test/java/featureTest/MySchoolFilesTest.feature:71"
+          }
+        ]
+      },
+      {
+        "name": "Verify \"Clinical Policies Agreement\" Document Available in list",
+        "aggregatedDurations": {
+          "average": 0.0314401,
+          "median": 0.0314401
+        },
+        "durations": [
+          {
+            "duration": 0.0314401,
+            "location": "src/test/java/featureTest/MySchoolFilesTest.feature:86"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Check \"([^\"]*)\" Document is Mandatory or not$",
+    "steps": [
+      {
+        "name": "Check \"Health Requirements Form\" Document is Mandatory or not",
+        "aggregatedDurations": {
+          "average": 0.0250775,
+          "median": 0.0250775
+        },
+        "durations": [
+          {
+            "duration": 0.0250775,
+            "location": "src/test/java/featureTest/MySchoolFilesTest.feature:72"
+          }
+        ]
+      },
+      {
+        "name": "Check \"Clinical Policies Agreement\" Document is Mandatory or not",
+        "aggregatedDurations": {
+          "average": 0.0353919,
+          "median": 0.0353919
+        },
+        "durations": [
+          {
+            "duration": 0.0353919,
+            "location": "src/test/java/featureTest/MySchoolFilesTest.feature:87"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Click on \"([^\"]*)\" button$",
+    "steps": [
+      {
+        "name": "Click on \"OK\" button",
+        "aggregatedDurations": {
+          "average": 17.3055006,
+          "median": 17.3055006
+        },
+        "durations": [
+          {
+            "duration": 17.3055006,
+            "location": "src/test/java/featureTest/1SignUp.feature:38"
+          }
+        ]
+      },
+      {
+        "name": "Click on \"Select\" button",
+        "aggregatedDurations": {
+          "average": 1.60061922,
+          "median": 0.2537971
+        },
+        "durations": [
+          {
+            "duration": 0.2537971,
+            "location": "src/test/java/featureTest/MySchoolFilesTest.feature:75"
+          },
+          {
+            "duration": 3.4823265,
+            "location": "src/test/java/featureTest/MySchoolFilesTest.feature:79"
+          },
+          {
+            "duration": 0.2319451,
+            "location": "src/test/java/featureTest/MySchoolFilesTest.feature:90"
+          },
+          {
+            "duration": 0.0792295,
+            "location": "src/test/java/featureTest/MySchoolFilesTest.feature:93"
+          },
+          {
+            "duration": 3.9557979,
+            "location": "src/test/java/featureTest/MySchoolFilesTest.feature:96"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Click on \"([^\"]*)\" Document \u0027UPLOAD\u0027 button$",
+    "steps": [
+      {
+        "name": "Click on \"Health Requirements Form\" Document \u0027UPLOAD\u0027 button",
+        "aggregatedDurations": {
+          "average": 0.1348205,
+          "median": 0.1348205
+        },
+        "durations": [
+          {
+            "duration": 0.1348205,
+            "location": "src/test/java/featureTest/MySchoolFilesTest.feature:73"
+          }
+        ]
+      },
+      {
+        "name": "Click on \"Clinical Policies Agreement\" Document \u0027UPLOAD\u0027 button",
+        "aggregatedDurations": {
+          "average": 0.163524,
+          "median": 0.163524
+        },
+        "durations": [
+          {
+            "duration": 0.163524,
+            "location": "src/test/java/featureTest/MySchoolFilesTest.feature:88"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Select \"([^\"]*)\" Checkbox$",
+    "steps": [
+      {
+        "name": "Select \"same_mailing_address\" Checkbox",
+        "aggregatedDurations": {
+          "average": 0.1110171,
+          "median": 0.1110171
+        },
+        "durations": [
+          {
+            "duration": 0.1110171,
+            "location": "src/test/java/featureTest/1SignUp.feature:34"
+          }
+        ]
+      },
+      {
+        "name": "Select \"agreement_checkbox\" Checkbox",
+        "aggregatedDurations": {
+          "average": 0.1004679,
+          "median": 0.1004679
+        },
+        "durations": [
+          {
+            "duration": 0.1004679,
+            "location": "src/test/java/featureTest/1SignUp.feature:35"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Enter email address in \"([^\"]*)\" field for SignIn$",
+    "steps": [
+      {
+        "name": "Enter email address in \"username\" field for SignIn",
+        "aggregatedDurations": {
+          "average": 0.3205621,
+          "median": 0.3205621
+        },
+        "durations": [
+          {
+            "duration": 0.3205621,
+            "location": "src/test/java/featureTest/MySchoolFilesTest.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Upload \"([^\"]*)\" from \u0027Choose File\u0027 prompt$",
+    "steps": [
+      {
+        "name": "Upload \"\\Resources\\HealthRequirementsForm.pdf\" from \u0027Choose File\u0027 prompt",
+        "aggregatedDurations": {
+          "average": 0.0881772,
+          "median": 0.0881772
+        },
+        "durations": [
+          {
+            "duration": 0.0881772,
+            "location": "src/test/java/featureTest/MySchoolFilesTest.feature:78"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Verify \"([^\"]*)\" menu option is highlighted$",
+    "steps": [
+      {
+        "name": "Verify \"My School Files\" menu option is highlighted",
+        "aggregatedDurations": {
+          "average": 0.0547998,
+          "median": 0.0547998
+        },
+        "durations": [
+          {
+            "duration": 0.0547998,
+            "location": "src/test/java/featureTest/MySchoolFilesTest.feature:20"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Click on \"([^\"]*)\" \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "Click on \"AGREE AND REGISTER\" \"submit_button\"",
+        "aggregatedDurations": {
+          "average": 4.9402702,
+          "median": 4.9402702
+        },
+        "durations": [
+          {
+            "duration": 4.9402702,
+            "location": "src/test/java/featureTest/1SignUp.feature:36"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Select \"([^\"]*)\" for School-Campus-Discipline$",
+    "steps": [
+      {
+        "name": "Select \"American Medical Academy - Main Campus - Nursing\" for School-Campus-Discipline",
+        "aggregatedDurations": {
+          "average": 2.3435608,
+          "median": 2.3435608
+        },
+        "durations": [
+          {
+            "duration": 2.3435608,
+            "location": "src/test/java/featureTest/1SignUp.feature:9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Open the \u0027SignUp\u0027 url$",
+    "steps": [
+      {
+        "name": "Open the \u0027SignUp\u0027 url",
+        "aggregatedDurations": {
+          "average": 9.8052786,
+          "median": 9.8052786
+        },
+        "durations": [
+          {
+            "duration": 9.8052786,
+            "location": "src/test/java/featureTest/1SignUp.feature:4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Enter \"([^\"]*)\" address for \u0027Verification\u0027$",
+    "steps": [
+      {
+        "name": "Enter \"email_confirm\" address for \u0027Verification\u0027",
+        "aggregatedDurations": {
+          "average": 0.4359059,
+          "median": 0.4359059
+        },
+        "durations": [
+          {
+            "duration": 0.4359059,
+            "location": "src/test/java/featureTest/1SignUp.feature:23"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Verify it Redirected to \"([^\"]*)\" Page$",
+    "steps": [
+      {
+        "name": "Verify it Redirected to \"My Account\" Page",
+        "aggregatedDurations": {
+          "average": 4.7629119,
+          "median": 4.7629119
+        },
+        "durations": [
+          {
+            "duration": 4.7629119,
+            "location": "src/test/java/featureTest/MySchoolFilesTest.feature:11"
+          }
+        ]
+      },
+      {
+        "name": "Verify it Redirected to \"My School Files\" Page",
+        "aggregatedDurations": {
+          "average": 0.0315343,
+          "median": 0.0315343
+        },
+        "durations": [
+          {
+            "duration": 0.0315343,
+            "location": "src/test/java/featureTest/MySchoolFilesTest.feature:19"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Verify \"([^\"]*)\" Document \u0027Status\u0027 after upload file$",
+    "steps": [
+      {
+        "name": "Verify \"Health Requirements Form\" Document \u0027Status\u0027 after upload file",
+        "aggregatedDurations": {
+          "average": 0.0544118,
+          "median": 0.0544118
+        },
+        "durations": [
+          {
+            "duration": 0.0544118,
+            "location": "src/test/java/featureTest/MySchoolFilesTest.feature:80"
+          }
+        ]
+      },
+      {
+        "name": "Verify \"Clinical Policies Agreement\" Document \u0027Status\u0027 after upload file",
+        "aggregatedDurations": {
+          "average": 0.0374644,
+          "median": 0.0374644
+        },
+        "durations": [
+          {
+            "duration": 0.0374644,
+            "location": "src/test/java/featureTest/MySchoolFilesTest.feature:97"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Enter \"([^\"]*)\" in \"([^\"]*)\" field for SignIn$",
+    "steps": [
+      {
+        "name": "Enter \"Testing123\" in \"password\" field for SignIn",
+        "aggregatedDurations": {
+          "average": 0.1670791,
+          "median": 0.1670791
+        },
+        "durations": [
+          {
+            "duration": 0.1670791,
+            "location": "src/test/java/featureTest/MySchoolFilesTest.feature:9"
+          }
+        ]
+      }
+    ]
+  }
+]

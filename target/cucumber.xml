@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="3" tests="11" time="69.265189">
+<testcase classname="Fill 'SignUp' form &amp; get User id &amp; password" name="Enter application url" time="9.805279">
+<system-out><![CDATA[Given Open the 'SignUp' url.................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Fill 'SignUp' form &amp; get User id &amp; password" name="Fill 'SignUp' form" time="3.16664">
+<system-out><![CDATA[And Enter "TestStudent" in "first_name" field...............................passed
+And Enter "Qa" in "last_name" field.........................................passed
+And Select "American Medical Academy - Main Campus - Nursing" for School-Campus-Discipline.passed
+And Enter "10/2021" date in "graduation_date" calender......................passed
+]]></system-out>
+</testcase>
+<testcase classname="Fill 'SignUp' form &amp; get User id &amp; password" name="Fill Mailing Address - 'required by clinical sites'" time="4.183272">
+<system-out><![CDATA[And Enter "75 Rock Maple" in "c_address_1" field............................passed
+And Enter "St.Santa Ana" in "c_address_2" field.............................passed
+And Select "CA" from "c_state" dropdown.....................................passed
+And Select "Holy City" from "c_city" dropdown...............................passed
+And Enter "92707" in "c_zip" field..........................................passed
+And Enter "(812)345-6789" in "uphone" field.................................passed
+And Enter "email" address for 'Registration'................................passed
+And Enter "email_confirm" address for 'Verification'........................passed
+And Enter "Testing123" in "password" field..................................passed
+And Enter "Testing123" in "password_confirm" field..........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Fill 'SignUp' form &amp; get User id &amp; password" name="Fill 'Credit Card Information' for payment" time="23.406795">
+<system-out><![CDATA[And Enter "4111111111111111" in "card-number" field.........................passed
+And Select "2020" from "exp-year" dropdown..................................passed
+And Enter "123" in "ccv" field..............................................passed
+And Select "same_mailing_address" Checkbox..................................passed
+And Select "agreement_checkbox" Checkbox....................................passed
+When Click on "AGREE AND REGISTER" "submit_button"..........................passed
+Then Verify "Success" model window open.....................................passed
+And Click on "OK" button....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Upload &amp; test 'My School Files' form" name="Data driving for valid 'sign-in'." time="5.331126">
+<system-out><![CDATA[And Enter email address in "username" field for SignIn......................passed
+And Enter "Testing123" in "password" field for SignIn.......................passed
+When Click on 'Login' button................................................passed
+Then Verify it Redirected to "My Account" Page..............................passed
+And Verify the page Title "Rotation Manager Software" text..................passed
+]]></system-out>
+</testcase>
+<testcase classname="Upload &amp; test 'My School Files' form" name="Open 'My School Files' panel &amp; Upload Mandataory File" time="2.113833">
+<system-out><![CDATA[When Click on "My School Files" Menu........................................passed
+Then Verify it Redirected to "My School Files" Page.........................passed
+And Verify "My School Files" menu option is highlighted.....................passed
+]]></system-out>
+</testcase>
+<testcase classname="Upload &amp; test 'My School Files' form" name="Test &amp; Upload 'BLS/CPR Card' Document" time="0.023667">
+<skipped><![CDATA[And Verify "BLS/CPR Card" Document Available in list........................passed
+And Check  "BLS/CPR Card" Document is Mandatory or not......................undefined
+And Click on "BLS/CPR Card" Document 'UPLOAD' button........................skipped
+And Verify "Upload Documents" model window open.............................skipped
+And Click on "Select" button................................................skipped
+And Verify 'Mandatory' field Notification message "Expiration Date is required and must be a valid Date" appears.skipped
+And Enter "02/10/2020" in "exp_date" calender box...........................skipped
+And Click on "Select" button................................................skipped
+And Verify 'Mandatory' field Notification message "Please select a file or press Cancel button" appears.skipped
+And Select Add files from My "computer" options from Dropdown list..........skipped
+And Upload "\Resources\BlsCard.pdf" from 'Choose File' prompt...............skipped
+And Click on "Select" button................................................skipped
+And Verify "BLS/CPR Card" Document 'Status' after upload file...............skipped
+Then Update Expiry date to "11/12/2021".....................................skipped
+]]></skipped>
+</testcase>
+<testcase classname="Upload &amp; test 'My School Files' form" name="Test &amp; Upload 'School ID' Document" time="0.02175">
+<skipped><![CDATA[And Verify "School ID" Document Available in list...........................passed
+And Check  "School ID" Document is Mandatory or not.........................undefined
+And Click on "School ID" Document 'UPLOAD' button...........................skipped
+And Verify "Upload Documents" model window open.............................skipped
+And Click on "Select" button................................................skipped
+And Verify 'Mandatory' field Notification message "Please select a file or press Cancel button" appears.skipped
+And Select Add files from My "account" options from Dropdown list...........skipped
+And Click on "Select" button................................................skipped
+And Verify 'Mandatory' field Notification message "Please select a file or press Cancel button" appears.skipped
+And Select "BlsCard.pdf" file from 'Account Files' list.....................skipped
+And Click on "Select" button................................................skipped
+And Verify "School ID" Document 'Status' after upload file..................skipped
+]]></skipped>
+</testcase>
+<testcase classname="Upload &amp; test 'My School Files' form" name="Test &amp; Upload 'Picture ID' Document" time="0.016726">
+<skipped><![CDATA[And Verify "Picture ID" Document Available in list..........................passed
+And Check  "Picture ID" Document is Mandatory or not........................undefined
+And Click on "Picture ID" Document 'UPLOAD' button..........................skipped
+And Verify "Upload Documents" model window open.............................skipped
+And Click on "Select" button................................................skipped
+And Verify 'Mandatory' field Notification message "Please select a file or press Cancel button" appears.skipped
+And Select Add files from My "computer" options from Dropdown list..........skipped
+And Upload "\Resources\photoID.png" from 'Choose File' prompt...............skipped
+And Click on "Select" button................................................skipped
+And Verify "Picture ID" Document 'Status' after upload file.................skipped
+]]></skipped>
+</testcase>
+<testcase classname="Upload &amp; test 'My School Files' form" name="Test &amp; Upload 'Health Requirements Form' Document" time="9.150183">
+<system-out><![CDATA[And Verify "Health Requirements Form" Document Available in list............passed
+And Check "Health Requirements Form" Document is Mandatory or not...........passed
+And Click on "Health Requirements Form" Document 'UPLOAD' button............passed
+And Verify "Upload Documents" model window open.............................passed
+And Click on "Select" button................................................passed
+And Verify 'Mandatory' field Notification message "Please select a file or press Cancel button" appears.passed
+And Select Add files from My "computer" options from Dropdown list..........passed
+And Upload "\Resources\HealthRequirementsForm.pdf" from 'Choose File' prompt.passed
+And Click on "Select" button................................................passed
+And Verify "Health Requirements Form" Document 'Status' after upload file...passed
+]]></system-out>
+</testcase>
+<testcase classname="Upload &amp; test 'My School Files' form" name="Test &amp; Upload 'Clinical Policies Agreement' Document" time="12.045918">
+<system-out><![CDATA[And Verify "Clinical Policies Agreement" Document Available in list.........passed
+And Check "Clinical Policies Agreement" Document is Mandatory or not........passed
+And Click on "Clinical Policies Agreement" Document 'UPLOAD' button.........passed
+And Verify "Upload Documents" model window open.............................passed
+And Click on "Select" button................................................passed
+And Verify 'Mandatory' field Notification message "Please select a file or press Cancel button" appears.passed
+And Select Add files from My "account" options from Dropdown list...........passed
+And Click on "Select" button................................................passed
+And Verify 'Mandatory' field Notification message "Please select a file or press Cancel button" appears.passed
+And Select "HealthRequirementsForm.pdf" file from 'Account Files' list......passed
+And Click on "Select" button................................................passed
+And Verify "Clinical Policies Agreement" Document 'Status' after upload file.passed
+]]></system-out>
+</testcase>
+</testsuite>

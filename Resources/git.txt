@@ -1,0 +1,9 @@
+
+
+git init
+git remote add origin https://github.com/thakurveerendra/walmartDemo.git
+git add .
+git status
+git commit -m "test"
+git push --set-upstream origin master
+
